@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 26d1465483b00ba46afc331b84ebb437
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 719106419067553681
+    second: PinGlowSpritesheet-512x512_0
+  - first:
+      213: -9206764182410256126
+    second: PinGlowSpritesheet-512x512_1
+  - first:
+      213: -2707764195275178095
+    second: PinGlowSpritesheet-512x512_2
+  - first:
+      213: -8965411389782012673
+    second: PinGlowSpritesheet-512x512_3
+  - first:
+      213: 5232452642191270966
+    second: PinGlowSpritesheet-512x512_4
+  - first:
+      213: 2220075177952483281
+    second: PinGlowSpritesheet-512x512_5
+  - first:
+      213: -667682390088294392
+    second: PinGlowSpritesheet-512x512_6
+  - first:
+      213: 9208196991716964417
+    second: PinGlowSpritesheet-512x512_7
+  - first:
+      213: -9137441914291517013
+    second: PinGlowSpritesheet-512x512_8
+  - first:
+      213: -2817239662967615913
+    second: PinGlowSpritesheet-512x512_9
+  - first:
+      213: -963517966713701888
+    second: PinGlowSpritesheet-512x512_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 518
+        width: 74
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19789386a77caf900800000000000000
+      internalID: 719106419067553681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 518
+        width: 74
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201a5a071c00b3080800000000000000
+      internalID: -9206764182410256126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_2
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 906
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ff91d8fc61c6ad0800000000000000
+      internalID: -2707764195275178095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 518
+        width: 102
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc4dce77d5749380800000000000000
+      internalID: -8965411389782012673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_4
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 910
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6346dd194f76d9840800000000000000
+      internalID: 5232452642191270966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 102
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d71584ac9a4fce10800000000000000
+      internalID: 2220075177952483281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 398
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800e00c576aebb6f0800000000000000
+      internalID: -667682390088294392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_7
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 6
+        width: 102
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1483c1970661acf70800000000000000
+      internalID: 9208196991716964417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_8
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 398
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba983eebdf8413180800000000000000
+      internalID: -9137441914291517013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_9
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 6
+        width: 74
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e8ca1f37727e8d0800000000000000
+      internalID: -2817239662967615913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinGlowSpritesheet-512x512_10
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 398
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ab253a385e0a2f0800000000000000
+      internalID: -963517966713701888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PinGlowSpritesheet-512x512_0: 719106419067553681
+      PinGlowSpritesheet-512x512_1: -9206764182410256126
+      PinGlowSpritesheet-512x512_10: -963517966713701888
+      PinGlowSpritesheet-512x512_2: -2707764195275178095
+      PinGlowSpritesheet-512x512_3: -8965411389782012673
+      PinGlowSpritesheet-512x512_4: 5232452642191270966
+      PinGlowSpritesheet-512x512_5: 2220075177952483281
+      PinGlowSpritesheet-512x512_6: -667682390088294392
+      PinGlowSpritesheet-512x512_7: 9208196991716964417
+      PinGlowSpritesheet-512x512_8: -9137441914291517013
+      PinGlowSpritesheet-512x512_9: -2817239662967615913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

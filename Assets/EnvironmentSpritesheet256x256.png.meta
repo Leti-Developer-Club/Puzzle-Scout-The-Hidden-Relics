@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: bfcf09271ef4b734e9a75e7ee9a14140
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6071085003227686429
+    second: EnvironmentSpritesheet256x256_0
+  - first:
+      213: 9013567679093352778
+    second: EnvironmentSpritesheet256x256_1
+  - first:
+      213: -7381629674769004342
+    second: EnvironmentSpritesheet256x256_2
+  - first:
+      213: 6240450301372850410
+    second: EnvironmentSpritesheet256x256_3
+  - first:
+      213: 4095967785266025302
+    second: EnvironmentSpritesheet256x256_4
+  - first:
+      213: -1009147611216825377
+    second: EnvironmentSpritesheet256x256_5
+  - first:
+      213: 2714073507257356969
+    second: EnvironmentSpritesheet256x256_6
+  - first:
+      213: 4866857723171884432
+    second: EnvironmentSpritesheet256x256_7
+  - first:
+      213: -463344178312213536
+    second: EnvironmentSpritesheet256x256_8
+  - first:
+      213: -7175033695177030435
+    second: EnvironmentSpritesheet256x256_9
+  - first:
+      213: -407865555586856641
+    second: EnvironmentSpritesheet256x256_10
+  - first:
+      213: 4478880598141835148
+    second: EnvironmentSpritesheet256x256_11
+  - first:
+      213: 7005370384248575611
+    second: EnvironmentSpritesheet256x256_12
+  - first:
+      213: 163113762422344700
+    second: EnvironmentSpritesheet256x256_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 545
+        width: 240
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16669af4a3d04450800000000000000
+      internalID: 6071085003227686429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 550
+        width: 149
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a492d475c00a61d70800000000000000
+      internalID: 9013567679093352778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 550
+        width: 81
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac849eb9bee2f8990800000000000000
+      internalID: -7381629674769004342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 544
+        width: 155
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0eecb5c788a9650800000000000000
+      internalID: 6240450301372850410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_4
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 545
+        width: 164
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6539934dffcc7d830800000000000000
+      internalID: 4095967785266025302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 288
+        width: 192
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3bc732899cef1f0800000000000000
+      internalID: -1009147611216825377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 277
+        width: 165
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a29f5e99735aa520800000000000000
+      internalID: 2714073507257356969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 263
+        width: 248
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dc602405d8a8340800000000000000
+      internalID: 4866857723171884432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_8
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 263
+        width: 248
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb84fabceed199f0800000000000000
+      internalID: -463344178312213536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 244
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4c3838ed82d6c90800000000000000
+      internalID: -7175033695177030435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 61
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39c02b2078f65af0800000000000000
+      internalID: -407865555586856641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8712a38c2e282e30800000000000000
+      internalID: 4478880598141835148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 51
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b769d299f33183160800000000000000
+      internalID: 7005370384248575611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentSpritesheet256x256_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 51
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb492b4a1f734200800000000000000
+      internalID: 163113762422344700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EnvironmentSpritesheet256x256_0: 6071085003227686429
+      EnvironmentSpritesheet256x256_1: 9013567679093352778
+      EnvironmentSpritesheet256x256_10: -407865555586856641
+      EnvironmentSpritesheet256x256_11: 4478880598141835148
+      EnvironmentSpritesheet256x256_12: 7005370384248575611
+      EnvironmentSpritesheet256x256_13: 163113762422344700
+      EnvironmentSpritesheet256x256_2: -7381629674769004342
+      EnvironmentSpritesheet256x256_3: 6240450301372850410
+      EnvironmentSpritesheet256x256_4: 4095967785266025302
+      EnvironmentSpritesheet256x256_5: -1009147611216825377
+      EnvironmentSpritesheet256x256_6: 2714073507257356969
+      EnvironmentSpritesheet256x256_7: 4866857723171884432
+      EnvironmentSpritesheet256x256_8: -463344178312213536
+      EnvironmentSpritesheet256x256_9: -7175033695177030435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

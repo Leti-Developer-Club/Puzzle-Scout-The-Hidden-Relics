@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 3164f0ff97aadfc48baba990c0b95642
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -819530407569144871
+    second: HyenaDieSpritesheet_0
+  - first:
+      213: 1258377855418586377
+    second: HyenaDieSpritesheet_1
+  - first:
+      213: 1232626658386569575
+    second: HyenaDieSpritesheet_2
+  - first:
+      213: 5516682155943747030
+    second: HyenaDieSpritesheet_3
+  - first:
+      213: 8349104335834417394
+    second: HyenaDieSpritesheet_4
+  - first:
+      213: 8279138094502851285
+    second: HyenaDieSpritesheet_5
+  - first:
+      213: 8369298947019170405
+    second: HyenaDieSpritesheet_6
+  - first:
+      213: -8815514849506298244
+    second: HyenaDieSpritesheet_7
+  - first:
+      213: -5517415266200463235
+    second: HyenaDieSpritesheet_8
+  - first:
+      213: -7058388147629421324
+    second: HyenaDieSpritesheet_9
+  - first:
+      213: 1336843244878745318
+    second: HyenaDieSpritesheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HyenaDieSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 475
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3c536bf6170a4f0800000000000000
+      internalID: -819530407569144871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HyenaDieSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 475
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769eec14a6b2b1110800000000000000
+      internalID: 1232626658386569575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HyenaDieSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 26
+        width: 421
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee68b236d67c32a42a48062d1e236854
+      internalID: -1093934056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HyenaDieSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 26
+        width: 403
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d1c4d9442361844ac577d8088e3f66
+      internalID: 1164330823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 63b9a7103e9ac1844b5e2d5ca48a82a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HyenaDieSpritesheet_0: -819530407569144871
+      HyenaDieSpritesheet_1: 1258377855418586377
+      HyenaDieSpritesheet_10: 1336843244878745318
+      HyenaDieSpritesheet_2: 1232626658386569575
+      HyenaDieSpritesheet_3: 8369298947019170405
+      HyenaDieSpritesheet_4: -8815514849506298244
+      HyenaDieSpritesheet_5: 8279138094502851285
+      HyenaDieSpritesheet_6: -1093934056
+      HyenaDieSpritesheet_7: 1164330823
+      HyenaDieSpritesheet_8: -5517415266200463235
+      HyenaDieSpritesheet_9: -7058388147629421324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: a48aa39a296f0442aa9de53687e7326d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152395
+  packageName: FREE Music For Puzzle Games
+  packageVersion: 1.0
+  assetPath: Assets/AS_Music_For_Puzzle_Games_FREE/Jungle Puzzle Orchestral.wav
+  uploadId: 327640
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

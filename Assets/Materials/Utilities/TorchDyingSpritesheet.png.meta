@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 44954faa8328d694290fee018ece7eb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5660813690093450062
+    second: TorchDyingSpritesheet_0
+  - first:
+      213: 2062701925756159831
+    second: TorchDyingSpritesheet_1
+  - first:
+      213: 9080601523478047876
+    second: TorchDyingSpritesheet_2
+  - first:
+      213: 3009916907688601588
+    second: TorchDyingSpritesheet_3
+  - first:
+      213: -1534646109241103548
+    second: TorchDyingSpritesheet_4
+  - first:
+      213: 2951412568970349377
+    second: TorchDyingSpritesheet_5
+  - first:
+      213: 7869422431872759201
+    second: TorchDyingSpritesheet_6
+  - first:
+      213: -7277868160703422079
+    second: TorchDyingSpritesheet_7
+  - first:
+      213: 147674973362038104
+    second: TorchDyingSpritesheet_8
+  - first:
+      213: 4627428201473830059
+    second: TorchDyingSpritesheet_9
+  - first:
+      213: 596949983034785448
+    second: TorchDyingSpritesheet_10
+  - first:
+      213: -4141115570443245750
+    second: TorchDyingSpritesheet_11
+  - first:
+      213: 2503064007166560412
+    second: TorchDyingSpritesheet_12
+  - first:
+      213: 7028512506913878835
+    second: TorchDyingSpritesheet_13
+  - first:
+      213: -4992465133758472179
+    second: TorchDyingSpritesheet_14
+  - first:
+      213: -6942006141510208830
+    second: TorchDyingSpritesheet_15
+  - first:
+      213: 7371257193707493491
+    second: TorchDyingSpritesheet_16
+  - first:
+      213: 8193226480868505023
+    second: TorchDyingSpritesheet_17
+  - first:
+      213: 3907707679678141330
+    second: TorchDyingSpritesheet_18
+  - first:
+      213: -5462358822990976540
+    second: TorchDyingSpritesheet_19
+  - first:
+      213: 3112805473077041301
+    second: TorchDyingSpritesheet_20
+  - first:
+      213: 4995971628943815268
+    second: TorchDyingSpritesheet_21
+  - first:
+      213: -2410371996948804413
+    second: TorchDyingSpritesheet_22
+  - first:
+      213: -6737378555029528619
+    second: TorchDyingSpritesheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TorchDyingSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 530
+        width: 183
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4330b11f004f8e40800000000000000
+      internalID: 5660813690093450062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TorchDyingSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 521
+        width: 196
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5bd74231034b170800000000000000
+      internalID: 8193226480868505023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TorchDyingSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 17
+        width: 199
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df512e76e50082a0800000000000000
+      internalID: -6737378555029528619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fe39e128107c3ef469e132611fee0b5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TorchDyingSpritesheet_0: 5660813690093450062
+      TorchDyingSpritesheet_1: 8193226480868505023
+      TorchDyingSpritesheet_10: 596949983034785448
+      TorchDyingSpritesheet_11: -4141115570443245750
+      TorchDyingSpritesheet_12: 2503064007166560412
+      TorchDyingSpritesheet_13: 7028512506913878835
+      TorchDyingSpritesheet_14: -4992465133758472179
+      TorchDyingSpritesheet_15: -6942006141510208830
+      TorchDyingSpritesheet_16: 7371257193707493491
+      TorchDyingSpritesheet_18: 3907707679678141330
+      TorchDyingSpritesheet_19: -5462358822990976540
+      TorchDyingSpritesheet_2: -6737378555029528619
+      TorchDyingSpritesheet_20: 3112805473077041301
+      TorchDyingSpritesheet_21: 4995971628943815268
+      TorchDyingSpritesheet_22: -2410371996948804413
+      TorchDyingSpritesheet_3: 3009916907688601588
+      TorchDyingSpritesheet_4: -1534646109241103548
+      TorchDyingSpritesheet_5: 2951412568970349377
+      TorchDyingSpritesheet_6: 7869422431872759201
+      TorchDyingSpritesheet_7: -7277868160703422079
+      TorchDyingSpritesheet_8: 147674973362038104
+      TorchDyingSpritesheet_9: 4627428201473830059
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

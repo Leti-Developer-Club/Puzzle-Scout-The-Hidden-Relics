@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 99c4200fdcb199d4e8e04b8a3771794b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8321111384476617425
+    second: AishaExplosionDefeatSpritesheet_0
+  - first:
+      213: -9216104945773711765
+    second: AishaExplosionDefeatSpritesheet_1
+  - first:
+      213: -7924055036149197856
+    second: AishaExplosionDefeatSpritesheet_2
+  - first:
+      213: 4804550997275114421
+    second: AishaExplosionDefeatSpritesheet_3
+  - first:
+      213: -3695731034105542773
+    second: AishaExplosionDefeatSpritesheet_4
+  - first:
+      213: 7845325361460324252
+    second: AishaExplosionDefeatSpritesheet_5
+  - first:
+      213: 5987053577581101501
+    second: AishaExplosionDefeatSpritesheet_6
+  - first:
+      213: 4989526917593447130
+    second: AishaExplosionDefeatSpritesheet_7
+  - first:
+      213: -4401484376073029926
+    second: AishaExplosionDefeatSpritesheet_8
+  - first:
+      213: 2534017273353666401
+    second: AishaExplosionDefeatSpritesheet_9
+  - first:
+      213: -1905635939386120220
+    second: AishaExplosionDefeatSpritesheet_10
+  - first:
+      213: 5988549671079062238
+    second: AishaExplosionDefeatSpritesheet_11
+  - first:
+      213: -5173730394136471416
+    second: AishaExplosionDefeatSpritesheet_12
+  - first:
+      213: -5982125625657361330
+    second: AishaExplosionDefeatSpritesheet_13
+  - first:
+      213: -9198938034202513588
+    second: AishaExplosionDefeatSpritesheet_14
+  - first:
+      213: 4336780070271188047
+    second: AishaExplosionDefeatSpritesheet_15
+  - first:
+      213: 1226722086939365748
+    second: AishaExplosionDefeatSpritesheet_16
+  - first:
+      213: 9069070293027898616
+    second: AishaExplosionDefeatSpritesheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 2245
+        width: 223
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25ffcf6849758c80800000000000000
+      internalID: -8321111384476617425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 2245
+        width: 223
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eef6e7161d91080800000000000000
+      internalID: -9216104945773711765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 2245
+        width: 223
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e39ea59de9180290800000000000000
+      internalID: -7924055036149197856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1221
+        width: 242
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbf4d92da13da240800000000000000
+      internalID: 4804550997275114421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1598
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8780ce843026bcc0800000000000000
+      internalID: -3695731034105542773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1344
+        width: 569
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97a43599d130ec60800000000000000
+      internalID: 7845325361460324252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1298
+        width: 582
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db104fe0289461350800000000000000
+      internalID: 5987053577581101501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 578
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada3860cb4c5e3540800000000000000
+      internalID: 4989526917593447130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 593
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad63cbfa749cae2c0800000000000000
+      internalID: -4401484376073029926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 587
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ff2f8c843aa2320800000000000000
+      internalID: 2534017273353666401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 544
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e72ca9a532dd85e0800000000000000
+      internalID: -1905635939386120220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 550
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda2378723a9b1350800000000000000
+      internalID: 5988549671079062238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 513
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8889add3e973338b0800000000000000
+      internalID: -5173730394136471416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 522
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c7ee820783bfca0800000000000000
+      internalID: -5982125625657361330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 458
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f6780989ec65080800000000000000
+      internalID: -9198938034202513588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 437
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cf1852f765f2c30800000000000000
+      internalID: 4336780070271188047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 152
+        width: 636
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47195261d31360110800000000000000
+      internalID: 1226722086939365748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AishaExplosionDefeatSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 152
+        width: 636
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4c9faa16fcbdd70800000000000000
+      internalID: 9069070293027898616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AishaExplosionDefeatSpritesheet_0: -8321111384476617425
+      AishaExplosionDefeatSpritesheet_1: -9216104945773711765
+      AishaExplosionDefeatSpritesheet_10: -1905635939386120220
+      AishaExplosionDefeatSpritesheet_11: 5988549671079062238
+      AishaExplosionDefeatSpritesheet_12: -5173730394136471416
+      AishaExplosionDefeatSpritesheet_13: -5982125625657361330
+      AishaExplosionDefeatSpritesheet_14: -9198938034202513588
+      AishaExplosionDefeatSpritesheet_15: 4336780070271188047
+      AishaExplosionDefeatSpritesheet_16: 1226722086939365748
+      AishaExplosionDefeatSpritesheet_17: 9069070293027898616
+      AishaExplosionDefeatSpritesheet_2: -7924055036149197856
+      AishaExplosionDefeatSpritesheet_3: 4804550997275114421
+      AishaExplosionDefeatSpritesheet_4: -3695731034105542773
+      AishaExplosionDefeatSpritesheet_5: 7845325361460324252
+      AishaExplosionDefeatSpritesheet_6: 5987053577581101501
+      AishaExplosionDefeatSpritesheet_7: 4989526917593447130
+      AishaExplosionDefeatSpritesheet_8: -4401484376073029926
+      AishaExplosionDefeatSpritesheet_9: 2534017273353666401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
