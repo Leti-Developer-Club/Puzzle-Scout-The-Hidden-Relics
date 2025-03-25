@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Animal_Animations : MonoBehaviour
 {
-    private Animator animator;
+    private Animator hyenaAnimator;
     
     [SerializeField] private Animal animal; // Reference to the animal logic
     public const string IS_WALKING = "IsWalking";
@@ -13,19 +13,19 @@ public class Animal_Animations : MonoBehaviour
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        hyenaAnimator = GetComponent<Animator>();
     }
 
     private void Update()
     {
         if (animal.isDefeated)
         {
-            animator.SetBool(IS_DEAD, true);
-            animator.SetBool(IS_WALKING, false); // Stop walking animation
+            hyenaAnimator.SetBool(IS_DEAD, true);
+            hyenaAnimator.SetBool(IS_WALKING, false); // Stop walking animation
         }
         else
         {
-            animator.SetBool(IS_WALKING, animal.IsWalking());
+            hyenaAnimator.SetBool(IS_WALKING, animal.IsWalking());
         }
     }
 }

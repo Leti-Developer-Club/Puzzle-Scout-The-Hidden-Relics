@@ -12,7 +12,7 @@ public class CharacterMovementWithPinLogic : MonoBehaviour
 
     [Header("Animation Settings")]
     [SerializeField] private Animator playerAnimator; // Reference to character's animator
-    // [SerializeField] private string walkingParameter = "IS_WALKING"; // Animator parameter for walking
+    //[SerializeField] private string walkingParameter = "IS_WALKING"; // Animator parameter for walking
 
     private int currentWaypointIndex = 0;
     private bool isMoving = false;

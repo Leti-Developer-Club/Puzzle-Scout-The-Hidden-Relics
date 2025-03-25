@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour
 {
-    private Animator animator;
+    private Animator hyenaAnimator;
     private Rigidbody2D rb;
     public bool isDefeated = false;
 
@@ -17,7 +17,7 @@ public class Animal : MonoBehaviour
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        hyenaAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
         if (levelCompletePanel == null)
@@ -61,33 +61,13 @@ public class Animal : MonoBehaviour
         if (currentState != GameState.Win) return; 
         
         isDefeated = true;
-        animator.SetTrigger("Die");
+        hyenaAnimator.SetTrigger("Die");
         Debug.Log("Animal defeated! Level Complete.");
         
         GameManager.Instance.WinGame();
 
-        // StartCoroutine(ShowLevelCompletePanel());
     }
 
-    // private IEnumerator ShowLevelCompletePanel()
-    // {
-    //     yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-        
-    //     if (levelCompletePanel != null)
-    //     {
-    //         levelCompletePanel.SetActive(true);
-    //     }
-    // }
-
-    // private void TriggerGameOver()
-    // {
-    //     if (currentState != GameState.Lose) return; 
-    //     Debug.Log("Game Over triggered.");
-    //     if (gameOverPanel != null)
-    //     {
-    //         gameOverPanel.SetActive(true);
-    //     }
-    // }
     public bool IsWalking()
 {
     if (rb == null)
