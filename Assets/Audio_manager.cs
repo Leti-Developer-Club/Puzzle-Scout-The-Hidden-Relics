@@ -3,7 +3,7 @@ using UnityEngine.Audio;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-public class Audio_manager : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
     [Header ("Audio Source")]
     [SerializeField] AudioSource musicSource;
@@ -16,10 +16,10 @@ public class Audio_manager : MonoBehaviour
     public AudioClip GameOver;
     public AudioClip BackgroundSFX;
 
-     public static Audio_manager Instance;  // Singleton pattern for global access
+     public static AudioManager Instance;  // Singleton pattern for global access
 
     [Header("Audio Mixer")]
-    public AudioMixer audioMixer;  // Assign your Audio Mixer in the inspector
+    public AudioMixer audioMixer;  
 
     [Header("UI Elements")]
     public Slider volumeSlider;
@@ -32,13 +32,13 @@ public class Audio_manager : MonoBehaviour
 
     private void Awake()
     {
-        // Ensure there is only one instance of AudioManager
+    
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject); 
-            // Keep across scenes
         }
+           
         else
         {
             Destroy(gameObject);
@@ -54,14 +54,14 @@ public class Audio_manager : MonoBehaviour
        SFXSource.loop = true;
        SFXSource.Play();
 
-       if (Audio_manager.Instance != null)
+       if (AudioManager.Instance != null)
         {
-            volumeSlider.onValueChanged.AddListener(Audio_manager.Instance.SetMasterVolume);
-            musicSlider.onValueChanged.AddListener(Audio_manager.Instance.SetMusicVolume);
-            sfxSlider.onValueChanged.AddListener(Audio_manager.Instance.SetSFXVolume);
+            volumeSlider.onValueChanged.AddListener(AudioManager.Instance.SetMasterVolume);
+            musicSlider.onValueChanged.AddListener(AudioManager.Instance.SetMusicVolume);
+            sfxSlider.onValueChanged.AddListener(AudioManager.Instance.SetSFXVolume);
 
             // Load saved settings
-            Audio_manager.Instance.LoadAudioSettings();
+            AudioManager.Instance.LoadAudioSettings();
         }
 
         // Load saved volume settings
@@ -110,5 +110,8 @@ public class Audio_manager : MonoBehaviour
     {
         SFXSource.PlayOneShot(clip);
     }
-    
+    public void PlayAudio(AudioClip clip)
+    {
+        musicSource.PlayOneShot(clip);
+    }
 }

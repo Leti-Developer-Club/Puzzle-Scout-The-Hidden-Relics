@@ -8,7 +8,7 @@ public class PlayerAnimations : MonoBehaviour
     private Animator playerAnimator;
 
     [SerializeField] private Player player;
-    [SerializeField] private string walkingParameter = "IS_WALKING"; // Animator parameter for walking
+    [SerializeField] private string walkingParameter = "isMoving"; // Animator parameter for walking
     bool moving = false;
 
     private void Awake()

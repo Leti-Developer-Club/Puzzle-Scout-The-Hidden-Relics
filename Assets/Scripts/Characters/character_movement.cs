@@ -11,9 +11,9 @@ public class CharacterMovementWithPinLogic : MonoBehaviour
     [SerializeField] private float moveSpeed = 2f; // Speed of movement
 
     [Header("Animation Settings")]
-    [SerializeField] private Animator playerAnimator; // Reference to character's animator
-    //[SerializeField] private string walkingParameter = "IS_WALKING"; // Animator parameter for walking
-
+    [SerializeField] private Animator playerAnimator;
+    private LevelHandler levelHandler;
+    
     private int currentWaypointIndex = 0;
     private bool isMoving = false;
     PlayerAnimations playerAnimations;

@@ -82,10 +82,4 @@ public class GameManager : MonoBehaviour
         Debug.Log("You Lose!");
         levelHandler.GameOver(); 
     }
-    // public void CollectTreasure(int value)
-    // {
-    //     collectedTreasures += value;
-    //     Debug.Log($"Total Treasures Collected: {collectedTreasures}");
-    //     levelHandler.CompleteLevel();
-    // }
 }

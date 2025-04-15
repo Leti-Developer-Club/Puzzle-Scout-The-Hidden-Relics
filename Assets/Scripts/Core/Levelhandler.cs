@@ -18,7 +18,7 @@ public class LevelHandler : MonoBehaviour
     bool isPaused = false;
 
 
-    Audio_manager Audio_Manager;
+    AudioManager audioManager;
      public static LevelHandler Instance { get; private set; }
 
     private void Awake()
@@ -48,9 +48,9 @@ public class LevelHandler : MonoBehaviour
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
         if (PausePanel != null) PausePanel.SetActive(false);
 
-        if (Audio_manager.Instance != null)
+        if (AudioManager.Instance != null)
         {
-            Audio_manager.Instance.LoadAudioSettings();
+            AudioManager.Instance.LoadAudioSettings();
         }
     }
 
@@ -81,7 +81,7 @@ public class LevelHandler : MonoBehaviour
     public void RestartLevel()
     {
         Debug.Log($"Restarting Level {currentLevel}");
-        SceneManager.LoadScene(currentLevel.ToString());
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void GameOver()

@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Timeline.Actions;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -20,7 +21,8 @@ public class MainMenuController : MonoBehaviour
     {
         // Start a new game by loading the first level
         PlayerPrefs.SetInt("LastSavedLevel",1); // Reset saved progress
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene(1);
+       
     }
 
     public void ContinueGame()
