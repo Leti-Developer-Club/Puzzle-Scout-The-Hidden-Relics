@@ -1,9 +1,12 @@
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 
 public class Animal : MonoBehaviour
 {
     private Animator hyenaAnimator;
+    private AnimalAnimations animalAnimations;
+    private AnimalMovement animalMovement;
     private Rigidbody2D rb;
     public bool isDefeated = false;
 
@@ -42,6 +45,7 @@ public class Animal : MonoBehaviour
                     case true:
                         currentState = GameState.Win;
                         HandleAnimalDefeat();
+                        GetComponent<AnimalMovement>().StopMovement();
                         break;
                     case false:
                         currentState = GameState.Lose;
@@ -58,25 +62,26 @@ public class Animal : MonoBehaviour
 
     public void HandleAnimalDefeat()
     {
-        if (currentState != GameState.Win) return; 
-        
-        isDefeated = true;
-        hyenaAnimator.SetTrigger("Die");
-        Debug.Log("Animal defeated! Level Complete.");
-        
-        GameManager.Instance.WinGame();
+        if (currentState != GameState.Win) return;
+        {
+            isDefeated = true;
+            hyenaAnimator.SetTrigger("isWalking");
+            Debug.Log("Animal defeated! Level Complete.");
+            animalAnimations = GetComponent<AnimalAnimations>();
+        }
 
+        GameManager.Instance.WinGame();
     }
 
     public bool IsWalking()
-{
-    if (rb == null)
     {
-        Debug.LogError("Rigidbody2D is missing on " + gameObject.name);
-        return false;
-    }
+        if (rb == null)
+        {
+            Debug.LogError("Rigidbody2D is missing on " + gameObject.name);
+            return false;
+        }
 
-    return rb.linearVelocity.magnitude > 0.1f; // Checks if the animal is moving
-}
+        return rb.linearVelocity.magnitude > 0.1f; // Checks if the animal is moving
+    }
 
 }

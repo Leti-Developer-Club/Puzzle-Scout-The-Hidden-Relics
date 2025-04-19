@@ -1,50 +1,100 @@
 using Unity.Entities.UniversalDelegates;
 using UnityEngine;
+using DG.Tweening;
+using TMPro;
 
 public class AnimalMovement : MonoBehaviour
 {
     [SerializeField] private Transform[] waypoints;
     [SerializeField] private float moveSpeed = 2f;
-    private int currentWaypointIndex = 0;
-    private Rigidbody2D rb; 
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
 
-    private Animal_Animations anim;
+    private AnimalAnimations animalAnimations;
+    private int currentIndex = 0;
+    private bool goingForward = true;
+    private bool isDefeated = false;
 
     private void Awake()
-{
-    rb = GetComponent<Rigidbody2D>();
-    anim = FindAnyObjectByType<Animal_Animations>();
-}
-
-    private void Update()
-{
-    if (waypoints.Length > 0 && anim != null)
     {
-        MoveAlongWaypoints();
+        rb = GetComponent<Rigidbody2D>();
+        animalAnimations = FindAnyObjectByType<AnimalAnimations>();
     }
-}
 
-    private void MoveAlongWaypoints()
+    private void Start()
     {
-        Transform targetWaypoint = waypoints[currentWaypointIndex];
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
-        Vector2 newPosition = Vector2.MoveTowards(rb.position, targetWaypoint.position, moveSpeed * Time.deltaTime);
-        rb.MovePosition(newPosition);
-
-        if (Vector2.Distance(rb.position, targetWaypoint.position) < 0.2f)
+        if (waypoints.Length > 1)
         {
-            currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+            // Start movement after a tiny delay to allow everything to initialize
+            Invoke(nameof(NextWaypoint), 0.1f);
+        }
+        else
+        {
+            Debug.LogWarning("Not enough waypoints set for movement.");
         }
     }
-    private void OnDrawGizmos()
-{
-    Gizmos.color = Color.green;
 
-    for (int i = 0; i < waypoints.Length; i++)
+    private void NextWaypoint()
     {
-        Vector3 current = waypoints[i].position;
-        Vector3 next = waypoints[(i + 1) % waypoints.Length].position;
-        Gizmos.DrawLine(current, next);
+        Transform target = waypoints[currentIndex];
+        float duration = Vector2.Distance(transform.position, target.position) / moveSpeed;
+
+        // Move to target waypoint
+        transform.DOMove(target.position, duration)
+            .SetEase(Ease.Linear)
+            .OnComplete(() =>
+            {
+                UpdateWaypointIndex();
+                FlipSprite();
+                NextWaypoint();
+            });
     }
-}
+
+    private void UpdateWaypointIndex()
+    {
+        if (goingForward)
+        {
+            currentIndex++;
+            if (currentIndex >= waypoints.Length)
+            {
+                currentIndex = waypoints.Length - 2;
+                goingForward = false;
+            }
+        }
+        else
+        {
+            currentIndex--;
+            if (currentIndex < 0)
+            {
+                currentIndex = 1;
+                goingForward = true;
+            }
+        }
+    }
+
+    private void FlipSprite()
+    {
+        if (spriteRenderer == null) return;
+        {
+            if (goingForward == true)
+            {
+                spriteRenderer.flipX = true; // flip left
+                Debug.Log("Sprite flippled left");
+            }
+            else
+            {
+                spriteRenderer.flipX = false; // flip right
+                Debug.Log("Sprite flipped right");
+            }
+        }
+
+
+    }
+    public void StopMovement()
+    {
+        transform.DOKill();
+        Debug.Log("Stopped movement");
+    }
 }

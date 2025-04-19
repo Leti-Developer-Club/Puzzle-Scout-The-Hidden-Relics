@@ -3,29 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal_Animations : MonoBehaviour
+public class AnimalAnimations : MonoBehaviour
 {
     private Animator hyenaAnimator;
     
     [SerializeField] private Animal animal; // Reference to the animal logic
-    public const string IS_WALKING = "IsWalking";
-    public const string IS_DEAD = "Die";
+    public const string walkingParameter = "isWalking";
 
     private void Awake()
     {
         hyenaAnimator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void Die()
     {
-        if (animal.isDefeated)
+        if (hyenaAnimator != null && animal.isDefeated)
         {
-            hyenaAnimator.SetBool(IS_DEAD, true);
-            hyenaAnimator.SetBool(IS_WALKING, false); // Stop walking animation
+            hyenaAnimator.SetBool(walkingParameter, false);
+            Debug.Log("Animal died");
         }
         else
         {
-            hyenaAnimator.SetBool(IS_WALKING, animal.IsWalking());
+            Debug.LogError("Couldn't find animator");
         }
+        animal.isDefeated = true;
     }
 }

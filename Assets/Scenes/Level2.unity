@@ -1577,8 +1577,8 @@ Tilemap:
     m_Data: {fileID: 0}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -11, y: -5, z: 0}
-  m_Size: {x: 22, y: 9, z: 1}
+  m_Origin: {x: -18, y: -5, z: 0}
+  m_Size: {x: 29, y: 9, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -4306,7 +4306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458d98b236fa83d4782079e995c2c853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypointIndex: 3
+  waypointIndex: 1
 --- !u!1 &1175090404
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,9 +5715,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1166833889}
   - {fileID: 2111883055}
+  - {fileID: 1166833889}
   moveSpeed: 1.5
+  spriteRenderer: {fileID: 1600406369}
 --- !u!114 &1600406378
 MonoBehaviour:
   m_ObjectHideFlags: 0

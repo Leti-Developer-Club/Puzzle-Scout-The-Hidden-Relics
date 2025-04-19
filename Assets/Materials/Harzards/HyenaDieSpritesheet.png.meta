@@ -146,10 +146,10 @@ TextureImporter:
       name: HyenaDieSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 475
-        width: 405
-        height: 517
+        x: 86
+        y: 648
+        width: 343
+        height: 233
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: HyenaDieSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 536
-        y: 475
-        width: 405
-        height: 517
+        x: 626
+        y: 641
+        width: 315
+        height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: HyenaDieSpritesheet_6
       rect:
         serializedVersion: 2
-        x: 24
-        y: 26
-        width: 421
-        height: 343
+        x: 150
+        y: 125
+        width: 295
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: HyenaDieSpritesheet_7
       rect:
         serializedVersion: 2
-        x: 536
-        y: 26
-        width: 403
-        height: 234
+        x: 627
+        y: 133
+        width: 312
+        height: 87
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
