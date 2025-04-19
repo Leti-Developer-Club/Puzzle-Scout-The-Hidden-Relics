@@ -2499,8 +2499,8 @@ MonoBehaviour:
   SFXSource: {fileID: 1614859619}
   background: {fileID: 8300000, guid: a48aa39a296f0442aa9de53687e7326d, type: 3}
   keypress: {fileID: 8300000, guid: 7e5745afffbcd0e4aaa8fce19523a3d2, type: 3}
-  CompleteLevel: {fileID: 0}
-  GameOver: {fileID: 0}
+  CompleteLevel: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+  GameOver: {fileID: 8300000, guid: df729d213c4be44a9b55cd109f5cd4f9, type: 3}
   BackgroundSFX: {fileID: 8300000, guid: 5d41c6eeeb0fa974fabbf9b7aaa1254a, type: 3}
   audioMixer: {fileID: 24100000, guid: 0fdb705e8a918d04a80a2eb288a80277, type: 2}
   volumeSlider: {fileID: 1571690899}

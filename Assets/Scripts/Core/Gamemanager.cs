@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [Header("Player and Level Settings")]
     [SerializeField] private Transform[] waypoints; 
-    [SerializeField] private Player player; 
+    [SerializeField] private Player player;
+    public AudioManager audioManager;
     private int currentWaypointIndex = 0; 
 
     [Header("Level Handler")]
@@ -73,13 +74,13 @@ public class GameManager : MonoBehaviour
         if (!hasEncounteredHazard && currentWaypointIndex == waypoints.Length - 1)
         {
         Debug.Log("You Win!");
-        levelHandler.CompleteLevel(); 
+        levelHandler.CompleteLevel();
         }
     }
 
     public void LoseGame()
     {
         Debug.Log("You Lose!");
-        levelHandler.GameOver(); 
+        levelHandler.GameOver();
     }
 }
