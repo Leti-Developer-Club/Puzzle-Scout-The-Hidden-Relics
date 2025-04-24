@@ -16,7 +16,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip GameOver;
     public AudioClip BackgroundSFX;
 
-     public static AudioManager Instance;  // Singleton pattern for global access
+    public static AudioManager Instance{ get; private set; }  // Singleton pattern for global access
 
     [Header("Audio Mixer")]
     public AudioMixer audioMixer;  
